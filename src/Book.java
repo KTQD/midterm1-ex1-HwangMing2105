@@ -2,7 +2,7 @@ public class Book {
   private String author;
     private int numberOfPages;
     private String genre;
-    public Book (String name, String description, String ID, float price, String author, int num, String genre){
+    public class Book (String name, String description, String ID, float price, String author, int num, String genre){
         super(name, description, ID, price);
         this.author = author;
         this.numberOfPages = num;
