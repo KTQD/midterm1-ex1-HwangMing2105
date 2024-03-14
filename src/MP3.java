@@ -6,6 +6,14 @@ public class MP3 {
         this.duration = duration;
     }
 
+    public int getDuration() {
+        return duration;
+    }
+
+    public void setDuration(int duration) {
+        this.duration = duration;
+    }
+
     @Override
     public void showInfo() {
         System.out.println("Name: " + name);
