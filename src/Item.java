@@ -12,7 +12,7 @@ public class Item {
         this.description = description;
     }
     public abstract void showInfo();
-    public Item(String name, String description, String ID, float price ){
+    public class Item(String name, String description, String ID, float price ){
         this.name = name;
         this.description = description;
         this.ID = ID;
