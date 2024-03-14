@@ -9,6 +9,7 @@ public class Main {
         // Hiển thị thông tin của đối tượng MP3
         System.out.println("Information of MP3:");
         mp3.showInfo();
+        
         System.out.println();
 
         // Hiển thị thông tin của đối tượng Book
@@ -17,4 +18,3 @@ public class Main {
     }
 }
 
-}
